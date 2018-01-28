@@ -50,7 +50,7 @@ table {
 
 
 
-/*beginning of css*/
+/* css from first attempt
 
 a {
   text-decoration: none;
@@ -245,5 +245,72 @@ body {
 }
 
 .test {
+  position: relative;
+}
+
+*/
+
+
+
+
+
+
+/*beginning of css*/
+
+
+body {
+	font-family: 'Titillium Web', sans-serif;
+
+}
+
+header {
+	background-color: #87509c;
+	color: #ffffff;
+}
+
+nav ul {
+	padding-top: 50px;
+}
+
+nav ul li {
+	display: inline-block;
+	margin-right: 30px;
+}
+
+.logo {
+	margin-left: 100px;
+	margin-right: 300px;
+}
+
+.cudaLogo {
+	vertical-align: middle;
+}
+
+header h1 {
+	text-align: center;
+	font-size: 34px;
+	margin-bottom: 50px;
+	margin-top: 100px;
+}
+
+header a {
+	color: white;
+	text-decoration: none;
+}
+
+header div {
+	text-align: center;
+}
+
+.button1 {
+  background-color: #ed8859;
+  border-radius: 8px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 50px;
+  padding-left: 50px;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 100px;
   position: relative;
 }
