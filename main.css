@@ -61,213 +61,12 @@ html {
   box-sizing: inherit;
   }
 
-
-/* css from first attempt
-
-a {
-  text-decoration: none;
-  color: white;
-  font-size: 25px;
-  font-weight: 900;
-}
-
-ul {
-  list-style-type: none;
   
-}
-
-li {
-  display: inline;
-  float: right;
-  margin: 20px;
-}
-
-.logo {
-  float: left;
-  margin-left: 50px;
-  margin-top: 20px;
-}
-
-h1 {
-  float: left;
-  text-align: center;
-  margin: 50px;
-}
-
-
-button a{
- 
-  color: white;
-  
-  
-}
-
-.button1 {
-  background-color: #ed8859;
-  border-radius: 9px;
-  position: absolute;
-  margin-top: 45%;
-}
-
-.container {
-  display: block;
-  margin-top: 0px;
-  padding: 0px;
-  
-}
-.number1{
-  background-color: #87509c;
-  text-align: center;
-  color: white;
-  }
-.number2 {
-  background-color:#17c2a4;
-  text-align: center;
-  color: white;
-}
-
-.ul2{
-  padding: 20px;
-  width: 15%;
-  float:left;
-}
-
-#number2 {
-  display: inline-block;
-}
-
-.number3 {
-  background-color: #e7f1f8;
-  text-align: center;
-}
-
-#number3 {
-  display: inline-block;
-}
-
-.ul3 {
-  
-  float: left;
-  width: 15%;
-}
-
-.number4 {
-  text-align: center;
-  
-}
-
-.number5 {
-  text-align: center;
-  background-color: #ffdd99;
-  display: inline-block;
-}
-
-.ul4 {
-  float:left;
-  margin-left:10%
-  
-}
-
-img {
-  width: 100%
-}
-
-li p {
-  font-size: 10px;
-}
-.ul5 {
-  float: left;
-  width: 40%;
-}
-
-#number5 {
-  display: inline-block;
-}
-
-#number6 {
-  display: inline-block;
-}
-
-.button3 {
-  background-color: #17c2a4;
-  color: white;
-  padding: 20px;
-  border-radius: 9px;
-  text-transform: uppercase;
-}
-
-.footer {
-  background-color: #3e4760;
-  display: block;
-  width: 100%;
-}
-
-  
-.number6 {
-  background-color: #d74680;
-  color: white;
-  text-align: center;
-  display: inline-block;
-  
-}
-
-.ul6 {
-  float: left;
-  width: 30%;
-  clear: right;
-}
-
-.ul6 img{
-  width: 50%;
-}
-.number7 {
-  text-align: center;
-  background-color: #3c5499;
-  color: white;
-}
-
-input {
-  background-color:  #2b3f78;
-  color: white;
-}
-
-.submit {
-  
-background-color: #34addb;  
-}
-
-textarea {
-  background-color:  #2b3f78;
-  color: white;
-}
-
-hr {
-  width: 10%;
-}
-
-body {
-  font-family: 'Titillium Web', sans-serif;
-  width: 100%;
-  
-}
-
-.ul7 {
-  float: left;
-  width: 20%;
-}
-
-.test {
-  position: relative;
-}
-
-*/
 
 
 
 
-
-
-/*beginning of css*/
+/*beginning of my css*/
 
 
 body {
@@ -505,4 +304,74 @@ header button {
 	margin-bottom: 100px;
 }
 	
+
+	
+/*sectionFour*/
+
+.sectionFour {
+	background-color: #ffdd99;
+	text-align: center;
+	color: #4c4942;
+}
+
+.sectionFour h2 {
+	font-size: 28px;
+	font-weight: bold;
+	padding-top: 100px;
+	padding-bottom: 10px;
+	text-transform: uppercase;
+}
+
+.sectionFour hr {
+	background-color: #e5c37f;
+	margin-bottom: 15px;
+}
+	
+.sectionFour p {
+	text-align: center;
+	padding-left: 300px;
+	padding-right: 300px;
+	font-size: 12px;
+	line-height: 1.5;
+	color: #465069;
+	margin-bottom: 50px;
+}	
+
+.s4ListOne {
+	margin-bottom: 50px;
+}
+	
+.s4ListOne li{
+	display: inline-block;
+	text-transform: uppercase;
+}
+
+.s4ListOne li button {
+	width: 65px;
+	margin: 3px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-transform: uppercase;
+	background-color: #000000;
+	font-weight: bold;
+	color: #d3d3d3;
+	color: #2b2b2b;
+	border: 0px;
+	border-radius: 8%;
+	
+}
+.s4ListTwo li img {
+	width: 80%;
+}
+
+.s4ListTwo li {
+	display: inline-block;
+	width: 45%;
+}
+
+
+.s4ListTwo li p {
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
 }
