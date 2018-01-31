@@ -378,9 +378,63 @@ header button {
 .sectionOne ul li h3 {
 	text-transform: uppercase;
 	font-size: 24px;
-	font-weight: bold;
+	
 }
 
 .sectionOne ul li p {
 	line-height: 1.5;
+}
+
+/*sectionTwo*/
+
+.sectionTwo {
+	background-color: #e7f1f8;
+	color: #46516a;
+}
+
+.sectionTwo h2 {
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 28px;
+	font-weight: bold;
+	padding-top: 100px;
+	padding-bottom: 10px;
+}
+
+.sectionTwo p {
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 75px;
+}
+
+.sectionTwo hr {
+	background-color: #c7d9e5;
+	border-color: #c7d9e5;
+}
+
+.sectionTwo ul {
+	text-align: center;
+}
+
+.sectionTwo ul li img {
+	width: 80%;
+	margin-bottom: 20px;
+}
+
+.sectionTwo ul li { 
+	width: 22%;
+	display: inline-block;
+	
+}
+
+.sectionTwo h3 {
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+.sectionTwo h4 {
+	font-size: 12px;
+	font-weight: bold;
+	color: #40bfe8;
 }
