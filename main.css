@@ -474,11 +474,11 @@ header button {
 .sectionSix {
 	background-color: #3c5499;
 	text-align: center;
+	color: #ffffff;
 }
 
 .sectionSix h2{
 	text-transform: uppercase;
-	color: #ffffff;
 	font-size: 28px;
 	font-weight: bold;
 	padding-top: 100px;
@@ -492,7 +492,6 @@ header button {
 }
 
 .sectionSix p {
-	color: #ffffff;
 	font-size: 14px;
 	margin-bottom: 75px;
 }
@@ -500,6 +499,7 @@ header button {
 form {
 	width: 450px;
 	display: inline-block;
+	color: #ffffff;
 }
 
 input {
@@ -507,6 +507,8 @@ input {
 	border: none;
 	padding: 10px;
 	margin: auto;
+	background-color: #273a71;
+	
 	
 }
 
@@ -518,5 +520,16 @@ textarea {
 	margin-top: 20px;
 	border-radius: 4px;
 	border: none;
+	background-color: #273a71;
+	margin-bottom: 50px;
 }
 	
+.submit {
+	margin-bottom: 100px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-right: 50px;
+	padding-left: 50px;
+	background-color: #30bae7;
+	color: #ffffff;
+}
