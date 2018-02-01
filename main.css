@@ -100,9 +100,11 @@ nav ul li {
 
 .logo {
 	margin-left: 100px;
-	margin-right: 300px;
-	
+	margin-right: 200px;
 }
+
+
+
 .cudaLogo {
 	vertical-align: middle;
 }
@@ -112,14 +114,25 @@ header h1 {
 	text-align: center;
 	font-size: 34px;
 	font-weight: bold;
+	line-height: 1.5;
 	margin-bottom: 50px;
 	margin-top: 100px;
+	margin-left: 165px;
+	margin-right: 165px;
 }
 
 header a {
 	color: white;
 	text-decoration: none;
 	text-transform: uppercase;
+}
+nav ul li a {
+	padding: 5px;
+	border-radius: 4px;
+}
+
+nav ul li a:hover {
+	background-color: #643a79;
 }
 
 header div {
@@ -155,11 +168,19 @@ header button {
 	padding-top: 100px;
 	font-size: 34px;
 	text-transform: uppercase;
+	padding-bottom: 10px;
+}
+.sectionOne hr {
+	border: none;
+	background-color: #13a78d;
 }
 
 .sectionOne p {
 	margin-top: 14px;
 	margin-bottom: 50px;
+	margin-right: 265px;
+	margin-left: 265px;
+	line-height: 1.5;
 }
 
 .sectionOne ul {
@@ -186,6 +207,8 @@ header button {
 
 .sectionOne ul li p {
 	line-height: 1.5;
+	margin-left: 0px;
+	margin-right: 0px;
 }
 
 /*sectionTwo*/
@@ -360,12 +383,17 @@ header button {
 	text-transform: uppercase;
 	background-color: #000000;
 	font-weight: bold;
-	color: #d3d3d3;
+	
 	color: #2b2b2b;
 	border: 0px;
 	border-radius: 8%;
-	
 }
+
+.s4ListOne li button:hover {
+	background-color: #ffffff;
+	color: #d3d3d3;
+}
+
 .s4ListTwo li img {
 	width: 80%;
 	margin-bottom: 10px;
@@ -572,4 +600,8 @@ footer ul li a {
 	font-weight: bold;
 	color: #ffffff;
 	text-decoration: none;
+}
+
+footer ul li a:hover {
+	color: #13a78d;
 }
