@@ -496,6 +496,9 @@ header button {
 	margin-bottom: 75px;
 }
 
+
+/*sectionSix form*/
+
 form {
 	width: 450px;
 	display: inline-block;
@@ -503,10 +506,11 @@ form {
 }
 
 input {
+	width: 40%;
+	margin: 15px;
 	border-radius: 4px;
 	border: none;
 	padding: 10px;
-	margin: auto;
 	background-color: #273a71;
 	
 	
@@ -514,7 +518,7 @@ input {
 
 textarea {
 	margin: auto;
-	width: 400px;
+	width: 88%;
 	height: 150px;
 	display: block;
 	margin-top: 20px;
@@ -532,4 +536,27 @@ textarea {
 	padding-left: 50px;
 	background-color: #30bae7;
 	color: #ffffff;
+}
+
+/*footer*/
+
+footer {
+	background-color: #344b8e;
+}
+
+footer ul {
+	text-align: center;
+}
+
+footer ul li {
+	display: inline-block;
+	padding: 30px;
+	margin: auto;
+}
+
+footer ul li a {
+	font-size: 18px;
+	font-weight: bold;
+	color: #ffffff;
+	text-decoration: none;
 }
