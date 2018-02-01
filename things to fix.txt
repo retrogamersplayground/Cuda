@@ -1,0 +1,28 @@
+
+
+for the button on top it would have been better to use <a> instead of <button>
+
+oh and text in button should have been real text not part of the image
+
+logo and nav are not really align look at design
+
+the button text where it says work with us should be text not just part of the image is what i meant
+
+that line under the titles look a bit weird
+yeah the hr looks weird
+
+fir these social icons in the bottom where there is olivia wilde make them closer together
+
+
+and instead of using hr tag use :after on the h2 its better
+
+sumbit button text center
+
+input placeholder text white and positioned
+
+textarea placeholder text white and positioned. 
+
+
+center pink section ul
+
+

@@ -85,6 +85,7 @@ hr {
 header {
 	background-color: #87509c;
 	color: #ffffff;
+	position: relative;
 }
 
 
@@ -100,15 +101,17 @@ nav ul li {
 .logo {
 	margin-left: 100px;
 	margin-right: 300px;
+	
 }
-
 .cudaLogo {
 	vertical-align: middle;
 }
 
+
 header h1 {
 	text-align: center;
 	font-size: 34px;
+	font-weight: bold;
 	margin-bottom: 50px;
 	margin-top: 100px;
 }
@@ -511,12 +514,15 @@ input {
 	border-radius: 4px;
 	border: none;
 	padding: 10px;
-	background-color: #273a71;
-	
-	
+	background-color: #273a71;	
+}
+
+::placeholder {
+	color: #ffffff;
 }
 
 textarea {
+	padding: 15px;
 	margin: auto;
 	width: 88%;
 	height: 150px;
@@ -527,7 +533,16 @@ textarea {
 	background-color: #273a71;
 	margin-bottom: 50px;
 }
+
+
+textarea ::placeholder {
+	margin-top: 5px;
+	margin-left: 5px;
+}
 	
+	
+
+
 .submit {
 	margin-bottom: 100px;
 	padding-top: 15px;
