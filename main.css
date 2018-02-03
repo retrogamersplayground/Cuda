@@ -605,3 +605,108 @@ footer ul li a {
 footer ul li a:hover {
 	color: #13a78d;
 }
+
+
+
+/*tablet layout*/
+
+@media(max-width: 768px) {
+
+	.logo {
+		margin-left: 10px;
+		margin-right: 20px;
+	}
+
+	header h1 {
+	text-align: center;
+	font-size: 34px;
+	font-weight: bold;
+	line-height: 1.5;
+	margin-bottom: 50px;
+	margin-top: 100px;
+	margin-left: 50px;
+	margin-right: 50px;
+	}
+
+/*sectionOne*/
+
+	.sectionOne p {
+		margin-top: 14px;
+		margin-bottom: 50px;
+		margin-right: 50px;
+		margin-left: 50px;
+		line-height: 1.5;
+	}	
+
+	.sectionOne li {
+	width: 45%;
+	display: inline-block;
+	padding: 5px;
+	}
+	
+	.sectionOne ul li p {
+	line-height: 1.5;
+	margin-left: 20px;
+	margin-right: 20px;
+	}
+	
+	
+/*sectionThree*/
+
+	.sectionThree p {
+		text-align: center;
+		padding-left: 50px;
+		padding-right: 50px;
+		font-size: 14px;
+		line-height: 1.5;
+		color: #465069;
+		margin-bottom: 75px;
+	}
+
+/*sectionFour*/
+
+	.sectionFour p {
+	text-align: center;
+	padding-left: 50px;
+	padding-right: 50px;
+	font-size: 14px;
+	line-height: 1.5;
+	color: #465069;
+	margin-bottom: 50px;
+}	
+	
+/*sectionFive*/
+
+
+	.sectionFive ul li h3 {
+		text-align: left;
+		font-size: 18px;
+		font-weight: bold;
+		margin-top: 0px;
+		margin-left: 0px;
+	}
+
+	.sectionFive ul li h4 {
+		text-align: left;
+		margin-top: 0px;
+		margin-left: 0px;
+		font-size: 14px;
+		font-weight: bold;
+		color: #f1aa90;
+		margin-bottom: 100px;
+	}	
+
+	
+/*footer*/
+
+footer ul li {
+	display: inline-block;
+	padding: 10px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin: auto;
+}
+
+	
+}
+
