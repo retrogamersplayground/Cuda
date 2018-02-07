@@ -131,9 +131,10 @@ nav ul li a {
 	border-radius: 4px;
 }
 
-nav ul li a:hover {
+.hover a:hover {
 	background-color: #643a79;
 }
+
 
 header div {
 	text-align: center;
@@ -150,8 +151,9 @@ header button {
   text-align: center;
   margin-bottom: 100px;
   position: relative;
+  border: none;
+  color: white;
 }
-
 
 
 /* article */
@@ -240,6 +242,8 @@ header button {
 
 .sectionTwo ul {
 	text-align: center;
+	padding-left: 45px;
+	padding-right: 45px;
 }
 
 .sectionTwo ul li img {
@@ -456,13 +460,16 @@ header button {
 
 .sectionFive ul {
 	text-align: center;
-	
-	padding-left: 50px;
+
 }
 
 .sectionFive ul li {
 	width: 40%;
 	display: inline-block;
+	margin-left: 5px; 
+	margin-right: 5px;
+	padding-left: 25px;
+	padding-right: 25px;
 }
 
 .sectionFive ul li img {
@@ -474,7 +481,6 @@ header button {
 .sectionFive ul li p {
 	text-align: left;
 	padding-top: 5px;
-	padding-right: 50px;
 	font-style: italic;
 	font-size: 14px;
 	line-height: 1.5;
@@ -486,13 +492,13 @@ header button {
 	font-size: 18px;
 	font-weight: bold;
 	margin-top: 0px;
-	margin-left: 80px;
+	margin-left: 70px;
 }
 
 .sectionFive ul li h4 {
 	text-align: left;
 	margin-top: 0px;
-	margin-left: 80px;
+	margin-left: 70px;
 	font-size: 14px;
 	font-weight: bold;
 	color: #f1aa90;
