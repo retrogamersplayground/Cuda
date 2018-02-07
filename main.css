@@ -456,7 +456,8 @@ header button {
 
 .sectionFive ul {
 	text-align: center;
-	margin: auto;
+	
+	padding-left: 50px;
 }
 
 .sectionFive ul li {
@@ -499,7 +500,6 @@ header button {
 }
 	
 
-	
 /*sectionSix*/
 
 .sectionSix {
@@ -651,6 +651,11 @@ footer ul li a:hover {
 	}
 	
 	
+/*sectionTwo*/
+
+
+
+	
 /*sectionThree*/
 
 	.sectionThree p {
@@ -677,13 +682,12 @@ footer ul li a:hover {
 	
 /*sectionFive*/
 
-
+	
 	.sectionFive ul li h3 {
 		text-align: left;
 		font-size: 18px;
 		font-weight: bold;
 		margin-top: 0px;
-		margin-left: 0px;
 	}
 
 	.sectionFive ul li h4 {
@@ -699,14 +703,18 @@ footer ul li a:hover {
 	
 /*footer*/
 
-footer ul li {
-	display: inline-block;
-	padding: 10px;
-	padding-top: 20px;
-	padding-bottom: 20px;
-	margin: auto;
-}
+	footer ul li {
+		display: inline-block;
+		padding: 10px;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		margin: auto;
+	}
 
 	
 }
 
+.fa-facebook, .fa-twitter-square, .fa-linkedin, .fa-envelope-square {
+	color: #bdd1df;
+	font-size: 18px;
+}
