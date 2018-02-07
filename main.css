@@ -505,7 +505,11 @@ header button {
 	margin-bottom: 100px;
 }
 	
-
+.fa-facebook, .fa-twitter-square, .fa-linkedin, .fa-envelope-square {
+	color: #bdd1df;
+	font-size: 18px;
+}
+	
 /*sectionSix*/
 
 .sectionSix {
@@ -616,7 +620,7 @@ footer ul li a:hover {
 
 /*tablet layout*/
 
-@media(max-width: 768px) {
+@media(max-width: 769px) {
 
 	.logo {
 		margin-left: 10px;
@@ -659,11 +663,21 @@ footer ul li a:hover {
 	
 /*sectionTwo*/
 
-
+	.sectionTwo ul li {
+	width: 45%;
+	display: inline-block;
+	padding: 5px;
+	}
 
 	
 /*sectionThree*/
-
+	
+	.sectionThree ul li {
+	width: 45%;
+	display: inline-block;
+	padding: 5px;
+	}
+	
 	.sectionThree p {
 		text-align: center;
 		padding-left: 50px;
@@ -720,7 +734,48 @@ footer ul li a:hover {
 	
 }
 
-.fa-facebook, .fa-twitter-square, .fa-linkedin, .fa-envelope-square {
-	color: #bdd1df;
-	font-size: 18px;
+/*Phone Layout*/
+
+@media(max-width: 415px) {
+	
+	/*sectionOne*/
+	
+	.sectionOne li {
+	width: 100%;
+	display: block;
+	padding: 5px;
+	}
+	
+	/*sectionTwo*/
+	
+	.sectionTwo ul li {
+	width: 100%;
+	display: block;
+	padding: 5px;
+	}
+	
+	/*sectionThree*/
+	
+	.sectionThree ul li {
+	width: 100%;
+	display: block;
+	padding: 5px;
+	}
+	
+	/*sectionFour*/
+	
+	.sectionFour ul li {
+	width: 100%;
+	display: block;
+	padding: 5px;
+	}
+	
+	/*sectionFive*/
+	
+	.sectionFive ul li {
+	width: 100%;
+	display: block;
+	padding: 5px;
+	}
+	
 }
