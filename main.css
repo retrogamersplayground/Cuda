@@ -89,11 +89,19 @@ header {
 }
 
 
+.logo {
+	display: inline-block;
 
-.cudaLogo {
-	float: left;
 }
 
+.nav {
+	float: right;
+	
+}
+
+li {
+	display: inline-block;
+	}
 
 header h1 {
 	text-align: center;
@@ -616,6 +624,8 @@ footer ul li a:hover {
 	.logo {
 		margin-left: 10px;
 		margin-right: 20px;
+		
+		
 	}
 
 	header h1 {
