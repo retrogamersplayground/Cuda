@@ -89,24 +89,9 @@ header {
 }
 
 
-nav ul {
-	padding-top: 50px;
-}
-
-nav ul li {
-	display: inline-block;
-	margin-right: 30px;
-}
-
-.logo {
-	margin-left: 100px;
-	margin-right: 200px;
-}
-
-
 
 .cudaLogo {
-	vertical-align: middle;
+	float: left;
 }
 
 
@@ -153,6 +138,7 @@ header button {
   border: none;
   color: white;
 }
+
 
 
 /* article */
@@ -281,9 +267,15 @@ header button {
 	margin-bottom: 100px;
 }
 
+
 .fa-facebook, .fa-twitter-square, .fa-linkedin, .fa-envelope-square {
+	background-color: #ffffff;
 	color: #bdd1df;
-	font-size: 18px;
+	font-size: 16px;
+}
+
+.fa-circle {
+	color: #bdd1df;
 }
 
 /*sectionThree*/
@@ -627,14 +619,28 @@ footer ul li a:hover {
 	}
 
 	header h1 {
-	text-align: center;
-	font-size: 34px;
-	font-weight: bold;
-	line-height: 1.5;
-	margin-bottom: 50px;
-	margin-top: 100px;
-	margin-left: 50px;
-	margin-right: 50px;
+		text-align: center;
+		font-size: 34px;
+		font-weight: bold;
+		line-height: 1.5;
+		margin-bottom: 50px;
+		margin-top: 100px;
+		margin-left: 50px;
+		margin-right: 50px;
+	}
+	
+	.icon {
+		display: block;
+	}
+	
+	.menu {
+		display: none;
+	}
+	
+	.menuResponsive {
+		
+		display: inline-block;
+	
 	}
 
 /*sectionOne*/
@@ -648,32 +654,35 @@ footer ul li a:hover {
 	}	
 
 	.sectionOne li {
-	width: 45%;
-	display: inline-block;
-	padding: 5px;
+		width: 45%;
+		display: inline-block;
+		padding: 5px;
 	}
 	
 	.sectionOne ul li p {
-	line-height: 1.5;
-	margin-left: 20px;
-	margin-right: 20px;
+		line-height: 1.5;
+		margin-left: 20px;
+		margin-right: 20px;
 	}
 	
 /*sectionTwo*/
 
 	.sectionTwo ul li {
-	width: 45%;
-	display: inline-block;
-	padding: 5px;
+		width: 45%;
+		display: inline-block;
+		padding: 5px;
 	}
 
+	.sectionTwo ul li ul li {
+		width: 20%;
+	}
 	
 /*sectionThree*/
 	
 	.sectionThree ul li {
-	width: 45%;
-	display: inline-block;
-	padding: 5px;
+		width: 45%;
+		display: inline-block;
+		padding: 5px;
 	}
 	
 	.sectionThree p {
@@ -689,13 +698,13 @@ footer ul li a:hover {
 /*sectionFour*/
 
 	.sectionFour p {
-	text-align: center;
-	padding-left: 50px;
-	padding-right: 50px;
-	font-size: 14px;
-	line-height: 1.5;
-	color: #465069;
-	margin-bottom: 50px;
+		text-align: center;
+		padding-left: 50px;
+		padding-right: 50px;
+		font-size: 14px;
+		line-height: 1.5;
+		color: #465069;
+		margin-bottom: 50px;
 	}
 
 	
@@ -752,13 +761,22 @@ footer ul li a:hover {
 
 @media(max-width: 415px) {
 	
+
+		
+	
+	.sectionOne h2, .sectionTwo h2, .sectionThree h2, .sectionFour h2, .sectionFive h2, .sectionSix h2 {
+		font-size: 26px;
+	}
+	
+	
+	
 	/*header*/
 	header nav ul li {
 		display: block;
 	}
 	
 	.logo {
-	text-align: center;
+		text-align: center;
 }
 	
 	header h1 {
@@ -766,11 +784,11 @@ footer ul li a:hover {
 	}
 	
 	header button {
-	  width: 100%;
-	  margin-bottom: 0px;
-	  border-radius: 0px;
+		width: 100%;
+		margin-bottom: 0px;
+		border-radius: 0px;
 	}
-	
+
 	
 /*sectionOne*/
 	
@@ -958,3 +976,77 @@ footer ul li a:hover {
 	
 }
 
+
+
+/*nav bar move after working*/
+
+.navigation:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.nav {
+  height: 70px;
+  line-height: 70px;
+}
+
+.menu {
+  margin: 0 30px 0 0;
+}
+
+.menu a {
+  float: right;
+  text-decoration: none;
+  color: #ffffff;
+  margin:  0px 20px;
+  line-height: 70px;
+}
+
+label {
+  margin: 0 40px 0 0;
+  font-size: 26px;
+  line-height: 70px;
+  display: none;
+}
+
+
+#toggle {
+  display: none;
+}
+
+
+
+/*tablet*/
+
+@media only screen and (max-width: 767px) {
+  
+  
+  label {
+    display: block;
+    pointer: cursor;
+  }
+
+  
+  .nav {
+	 border-bottom: 1px solid #ffffff;
+	 text-align: right;
+  }
+  .menu {
+    text-align: center;
+    width: 100%;
+    display: none;
+  }
+  
+  .menu a  {
+	float: none;
+    display: block;
+    border-bottom: 1px solid #ffffff;
+    margin: 0px;
+	padding-left: 0px;
+  }
+  
+  #toggle:checked + .menu {
+    display: block;
+  }
+}
