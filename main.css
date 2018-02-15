@@ -980,11 +980,6 @@ footer ul li a:hover {
 
 /*nav bar move after working*/
 
-.navigation:after {
-	content: "";
-	display: table;
-	clear: both;
-}
 
 .nav {
   height: 70px;
@@ -1046,7 +1041,7 @@ label {
 	padding-left: 0px;
   }
   
-  #toggle:checked + .menu {
-    display: block;
-  }
+	#toggle:checked + .menu {
+		display: block;
+	}
 }
